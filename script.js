@@ -59,11 +59,11 @@ function createBoard() {
 
         const cardFront = document.createElement('div');
         cardFront.classList.add('card-front');
-        cardFront.style.backgroundImage = `url("images/${card}.png")`;
+        cardFront.style.backgroundImage = `url("https://imamuradaiki.github.io/sinkeisuijaku/images/${card}.png")`;
 
         const cardBack = document.createElement('div');
         cardBack.classList.add('card-back');
-        cardBack.style.backgroundImage = 'url("images/back.png")';
+        cardBack.style.backgroundImage = 'url("https://imamuradaiki.github.io/sinkeisuijaku/images/back.png")';
 
         cardElement.appendChild(cardFront);
         cardElement.appendChild(cardBack);
